@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Mandiri Java Script</title>
+</head>
+<body>
+    <h2>Praktikum Mandiri Java Script</h2>
+    <p>Menghitung nilai UTS dan UAS Mahasiswa</p>
+
+    <script>
+    const nama = "Suhail";
+    const tugas = 85;
+    const uts = 80;
+    const uas = 95;
+    const nilaiAkhir = tugas * 0.30 + uts * 0.30 + uas * 0.40;
+
+    let status;
+
+    if (nilaiAkhir >= 60) {
+        status = "LULUS";
+    } else {
+        status = "TIDAK LULUS";
+    }
+
+    console.log("Nama:", nama);
+    console.log("Nilai akhir:", nilaiAkhir);
+    console.log("Status:", status);
+</script>
+    
+</body>
+</html>
